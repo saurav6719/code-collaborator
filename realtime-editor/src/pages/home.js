@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
-                <img src = "/code-sync-logo.png" alt="code-sync-logo" />
+                <img className="homePageLogo" src = "/code-sync-logo.png" alt="code-sync-logo" />
                 <h4 className="mainLabel">Paste Invitation Room ID</h4>
                 <div className="inputGroup">
                     <input type="text" className="inputBox" placeholder="ROOM ID" />
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
 
             <footer>
-                <h4>Built with 💛 by <a href="https://github.com/saurav6719"</h4>
+                <h4>Built with 💛 by <a href="https://github.com/saurav6719">Saurav</a></h4>
             </footer>
         </div>
     )
