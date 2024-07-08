@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <div>
-      <Toaster>
+      <Toaster
         position = "top-right" 
         toastOptions={{
           success: {
@@ -17,7 +17,7 @@ function App() {
             },
           },
         }}
-      </Toaster>
+      ></Toaster>
     </div>
       <BrowserRouter>
         <Routes>
