@@ -4,7 +4,6 @@ import Editor from '../components/Editor'
 const EditorPage = () => {
   const [clients , setClients] = useState([
     {socketId: 1, username: 'Saurav'},
-    {socketId: 2, username: 'Tanishka'},
     {socketId: 2, username: 'Shivam'},
   ]);
   return (
