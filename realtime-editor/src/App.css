@@ -55,6 +55,7 @@ footer a{
   padding: 10px;
   border-radius: 5px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -89,7 +90,6 @@ footer a{
 .mainWrap{
   display : grid;
   grid-template-columns: 230px 1fr;
-  height : 100vh;
 }
 
 .aside{
@@ -139,3 +139,11 @@ footer a{
 .leaveBtn:hover {
   background : #2b824c;
 }
+
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
